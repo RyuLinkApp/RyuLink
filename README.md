@@ -27,7 +27,10 @@ For security, only download packages published by the `RyuLinkApp` account from 
 
 - [Installation guide](docs/INSTALLATION.md)
 - [Frequently asked questions](docs/FAQ.md)
+- [Public beta support](SUPPORT.md)
+- [Security policy](SECURITY.md)
 - [Release policy](docs/RELEASES.md)
+- [Release notes template](docs/RELEASE_TEMPLATE.md)
 
 ## Status
 
