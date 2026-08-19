@@ -23,6 +23,12 @@ Official public builds will be published through the **GitHub Releases** section
 
 For security, only download packages published by the `RyuLinkApp` account from this repository.
 
+## Documentation
+
+- [Installation guide](docs/INSTALLATION.md)
+- [Frequently asked questions](docs/FAQ.md)
+- [Release policy](docs/RELEASES.md)
+
 ## Status
 
 RyuLink is currently in public beta. We are actively testing compatibility, connection stability, and server capacity.
@@ -34,6 +40,12 @@ The current application interface may still contain Chinese text. English locali
 ## Feedback
 
 If you encounter a reproducible problem, please include the game name, RyuLink version, system environment, network type, and steps to reproduce when reporting it.
+
+Please do not post passwords, access tokens, private keys, personal information, or other secrets in public issues.
+
+## Repository scope
+
+This public repository is currently used for RyuLink documentation, public-beta feedback, and official binary releases. RyuLink source code is not currently published in this repository.
 
 ## Disclaimer
 
