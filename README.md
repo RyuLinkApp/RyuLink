@@ -1,5 +1,7 @@
 # RyuLink
 
+**English** | [简体中文](README.zh-CN.md)
+
 RyuLink is a community networking tool for Nintendo Switch homebrew users. It is designed to help supported local-wireless / LAN multiplayer games connect across the Internet through RyuLink rooms.
 
 > Public beta project. Compatibility and stability may vary by game, network environment, and system setup.
