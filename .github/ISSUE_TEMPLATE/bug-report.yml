@@ -1,0 +1,83 @@
+name: Bug report
+description: Report a reproducible RyuLink problem
+title: "[Bug] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping test RyuLink. Please provide enough detail for us to reproduce the problem.
+
+  - type: input
+    id: ryulink-version
+    attributes:
+      label: RyuLink version
+      placeholder: e.g. v0.1.0
+    validations:
+      required: true
+
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      placeholder: Game name and version, if known
+    validations:
+      required: true
+
+  - type: dropdown
+    id: network
+    attributes:
+      label: Network environment
+      options:
+        - Both consoles on the same Wi-Fi
+        - Consoles on different Wi-Fi networks
+        - One console on Wi-Fi and one on mobile hotspot
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open RyuLink
+        2. Join or create room ...
+        3. Start the game ...
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: System environment
+      description: Atmosphère version, system version, setup details, or other relevant information.
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Attach relevant logs or screenshots. Remove sensitive information before posting.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have checked that this issue can be reproduced.
+          required: true
+        - label: I have removed passwords, tokens, IP addresses, or other sensitive information from logs and screenshots.
+          required: true
