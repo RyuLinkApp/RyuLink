@@ -48,6 +48,8 @@ Release notes should clearly separate the following where applicable:
 
 Breaking configuration, protocol, or package-layout changes must be called out prominently.
 
+Use [RELEASE_TEMPLATE.md](RELEASE_TEMPLATE.md) as the starting point for public release notes.
+
 ## Asset integrity
 
 Published release assets must be treated as immutable.
