@@ -1,0 +1,57 @@
+name: Feature Request
+description: Suggest an improvement or new capability for RyuLink
+title: "[Feature]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve RyuLink. Please describe the problem you want solved and the user benefit as clearly as possible.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked the existing Issues and did not find the same request.
+          required: true
+        - label: This request is about RyuLink networking, rooms, distribution, or user experience and does not request copyrighted game content.
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or limitation
+      description: What problem are you experiencing today?
+      placeholder: Describe the current limitation and who it affects.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Desired outcome
+      description: What behavior or result would improve the experience?
+      placeholder: Describe the result you want, without requiring a particular implementation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add examples, screenshots, compatibility considerations, or other context if useful.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Switch application
+        - Room and matchmaking experience
+        - Networking / relay behavior
+        - Installation / update experience
+        - Documentation
+        - Other
+    validations:
+      required: true
