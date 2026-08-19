@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: RyuLink Support Guide
+    url: https://github.com/RyuLinkApp/RyuLink/blob/main/SUPPORT.md
+    about: Read the support guide before opening an issue.
+  - name: RyuLink FAQ
+    url: https://github.com/RyuLinkApp/RyuLink/blob/main/docs/FAQ.md
+    about: Check common installation, networking, and compatibility questions.
+  - name: Security Reporting
+    url: https://github.com/RyuLinkApp/RyuLink/blob/main/SECURITY.md
+    about: Do not post sensitive security details in a normal public issue.
