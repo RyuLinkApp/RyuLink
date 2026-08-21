@@ -13,6 +13,15 @@ RyuLink is a community networking tool for Nintendo Switch homebrew users. It is
 - Targets Nintendo Switch homebrew / Atmosphère environments
 - Keeps game content separate from the networking service
 
+## Game compatibility
+
+🟢 Supported · 🟡 Supported with conditions · 🔴 Not supported
+
+| Game | Support | Notes |
+| --- | :---: | --- |
+| Mario Kart 8 Deluxe | 🟢 Supported | Verified working with RyuLink. |
+| Monster Hunter Rise | 🟡 Conditional | Players must use the same game version. |
+
 ## What RyuLink does not provide
 
 RyuLink does **not** distribute games, ROMs, firmware, encryption keys, title keys, or other copyrighted game content.
