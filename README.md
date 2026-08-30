@@ -20,7 +20,8 @@ RyuLink is a community networking tool for Nintendo Switch homebrew users. It is
 | Game | Support | Notes |
 | --- | :---: | --- |
 | Mario Kart 8 Deluxe | 🟢 Supported | Verified working with RyuLink. |
-| Monster Hunter Rise | 🟡 Conditional | Players must use the same game version. |
+| Pokémon Scarlet / Violet | 🟢 Supported | Verified working with RyuLink. |
+| Pokémon Legends: Z-A | 🟢 Supported | Verified working with RyuLink. |
 
 ## What RyuLink does not provide
 
